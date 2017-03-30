@@ -1,3 +1,3 @@
 name: Eric Michaels Portfolio Site
-markdown: redcarpet
+markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
