@@ -1,0 +1,21 @@
+mixin nav-content()
+  ul
+    li: a(href="design.html") home
+    li#active: a(href="design-list.html") work
+    li: a(href="about.html") contact
+
+.mobile-nav
+  +nav-content()
+
+header.m-scene
+  .header-position.scene_element.scene_element--fadein
+    h1.logo Eric Michaels
+
+    nav.site-nav
+      +nav-content()
+
+
+
+    a.email(href="mailto:eMichaels.art@gmail.com").email-link + contact me
+
+    .mobile-nav-toggle: span

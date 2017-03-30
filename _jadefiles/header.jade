@@ -1,0 +1,32 @@
+mixin nav-content()
+  ul
+    li: a(href="painting.html") painting
+    li: a(href="sculpture.html") sculpture
+    li: a(href="video.html") video
+    //li: a(href="#writing") writing
+    li: a(href="about-VA.html") about
+
+.mobile-nav
+  +nav-content()
+
+header.m-scene
+  .header-position.scene_element.scene_element--fadein
+    h1.logo Eric Michaels
+
+    nav.site-nav
+      +nav-content()
+
+
+    nav.site-nav2
+      ul
+        li.nav2Button-name: a(href="index.html") eric michaels
+        a#nav2Button.div-menuSeparator.pulse-button(href="#nav2")
+      .nav2Box#nav2
+        li#active.nav2Button: a(href="index.html") visual art
+        li.nav2ButtonB: a(href="design.html") design
+
+
+
+    a.email(href="mailto:eMichaels.art@gmail.com").email-link + contact me
+
+    .mobile-nav-toggle: span

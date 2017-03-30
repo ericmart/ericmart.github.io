@@ -1,0 +1,24 @@
+mixin nav-content()
+  ul
+    li: a(href="index.html") home
+    li#active: a(href="painting.html") painting
+    li: a(href="sculpture.html") sculpture
+    li: a(href="video.html") video
+    //li: a(href="#writing") writing
+    li: a(href="about-VA.html") about
+
+.mobile-nav
+  +nav-content()
+
+header
+  .header-position
+    h1.logo Eric Michaels
+
+    nav.site-nav
+      +nav-content()
+
+    nav.painting-nav
+
+    a.email(href="mailto:eMichaels.art@gmail.com").email-link + contact me
+
+    .mobile-nav-toggle: span

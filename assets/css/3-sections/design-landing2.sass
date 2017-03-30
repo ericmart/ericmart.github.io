@@ -1,0 +1,114 @@
+section.designLanding2
+  padding: 0
+  max-height: 525px
+
+  .parallax
+    perspective: 1px
+    height: 100vh
+    overflow-x: hidden
+    overflow-y: auto
+
+  .designLanding2-p1
+    background:
+      image: url(../imgs/designParallax-landing/designLanding2-parallax1.png)
+      position: center
+      size: cover
+    width: 638px
+    height: 444px
+    opacity: 0
+
+  .js-designLanding2p1-animate
+    opacity: 1
+
+  .designLanding2-p2
+    background:
+      image: url(../imgs/designParallax-landing/designLanding2-parallax2.png)
+      size: cover
+    position: relative
+    display: block
+    width: 650px
+    height: 444px
+    top: -475px
+    cursor: pointer
+    opacity: 0
+
+  .js-designLanding2p2-animate
+    opacity: 1
+
+  .grow
+    transition: all .2s ease-in-out
+
+  .grow:hover
+    transform: scale(1.1)
+
+@media (max-width: 2560px)
+  section.designLanding2
+    margin-top: 129px
+
+@media (max-width: 1024px)
+  section.designLanding2,
+    .mediaReset-headerFontSize
+      font-size: 50px
+
+    .mediaReset-copyFontSize
+      font-size: 18px
+
+    .align_designLanding
+      margin-left: -50px
+
+
+@media (max-width: 775px)
+  section.designLanding2
+    margin-top: 0px
+    position: relative
+    margin-bottom: 400px
+    margin-left: 85px
+
+  .mediaReset-headerFontSize
+    font-size: 50px
+
+  .mediaReset-copyFontSize
+    font-size: 18px
+
+@media (max-height: 375px)
+  section.designLanding2
+    margin-left: 39px
+
+// Landing Page Scroll Animations
+
+.slide
+  -moz-transition: 1s ease-in-out
+  -webkit-transition: 1s ease-in-out
+  transition: 1s ease-in-out
+  z-index: -5
+
+#workTitle, #contentTitle, #contentTitleB, #contentTitleC
+  visibility: hidden
+
+#workTitle.slide
+  -moz-transform: translate(2em, 0px)
+  -webkit-transform: translate(2em, 0px)
+  transform: translate(2em, 0px)
+  z-index: -5
+  visibility: visible
+
+#contentTitle.slide
+  -moz-transform: translate(6.2em, 0px)
+  -webkit-transform: translate(6.2em, 0px)
+  transform: translate(6.2em, 0px)
+  z-index: -5
+  visibility: visible
+
+#contentTitleB.slide
+  -moz-transform: translate(8.9em, 0px)
+  -webkit-transform: translate(8.9em, 0px)
+  transform: translate(8.9em, 0px)
+  z-index: -5
+  visibility: visible
+
+#contentTitleC.slide
+  -moz-transform: translate(6.2em, 0px)
+  -webkit-transform: translate(6.2em, 0px)
+  transform: translate(6.2em, 0px)
+  z-index: 10
+  visibility: visible

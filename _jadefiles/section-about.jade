@@ -1,0 +1,51 @@
+section.design-aboutSection.m-scene
+  .flex.flex--center.scene_element.scene_element--fadein
+    .col-1b
+      h4 About Me,
+    .col-1c
+      h2.kerning I'm Eric Michaels:
+      h4.subTitle Visual Artist | Designer
+      p.workDate.smaller All Day. Everyday.
+    .col-description
+      p.smaller#mediaReset-text
+        | I receieved my Bachelors of Fine Arts Degree from Otis College of Art and
+        br
+        | Design with an emphasis in Sculpture and New Genres, while also acquiring
+        br
+        | a minor in Creative Writing. Prior to my studies at Otis, I receieved my
+        br
+        | Associates of Arts degree in Graphic Design from the Art Institute of
+        br
+        | California - Los Angeles and continue to base my practice in Los Angeles.
+    ul.col-5.socialMediaIcons
+      .socialMediaIcons-container
+        li.smIcon1.fadeIn: a(target="_blank" href="https://www.facebook.com/ericm.work")
+        li.smIcon2.fadeIn: a(target="_blank" href="https://www.linkedin.com/in/ericmwork/")
+        li.smIcon3.fadeIn: a(href="#")
+    .designGallery.pushUp#center2
+      ul.rslides
+        li: img(src="../assets/imgs/picsForSite/aboutMe-picture.jpg")
+    .col-svg#mediaReset
+      svg#Layer_1(data-name='Layer 1', xmlns='http://www.w3.org/2000/svg', viewbox='0 0 612 1')
+        defs
+          style.
+            .cls-1
+            {fill:#fff;
+            stroke:#231f20;
+            stroke-miterlimit:10;}
+            .cls-1
+            {stroke-dasharray: 800;
+            stroke-dashoffset:0;
+            -webkit-animation: dash 2s linear forwards;
+            moz-animation: dash 2s linear forwards;
+            animation: dash 2s linear forwards;}
+            @-webkit-keyframes dash {
+            from {
+            stroke-dashoffset: 800;
+            }
+            to {
+            stroke-dashoffset:0;
+            }
+            }
+        title line
+        line.cls-1(y1='0.5', x2='612', y2='0.5')
