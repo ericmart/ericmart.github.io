@@ -1160,8 +1160,9 @@ section .landingP2 {
 
 @media (max-width: 1024px) {
   section .parallax-container, section .parallax-containerB, section .parallax-containerC {
-    height: 437px;
-    width: 655px; }
+    height: 600px;
+    width: 750px;
+    margin-left: 125px; }
   section .scene {
     margin: 0;
     padding: 0; } }
@@ -1178,7 +1179,17 @@ section .landingP2 {
 @media (max-width: 768px) {
   section section.landing .textOverlay {
     height: 483px;
-    margin-left: -12px; } }
+    margin-left: -12px; }
+  section .parallax-container {
+    height: 570px;
+    width: 900px;
+    margin-left: 45px; } }
+
+@media (max-width: 736px) {
+  section .parallax-container {
+    height: 570px;
+    width: 900px;
+    margin-left: 50px; } }
 
 @media (max-width: 640px) {
   section section.landing .textOverlay {
@@ -1202,9 +1213,17 @@ section.landing2 .scrollingText-1 {
   section.landing2 {
     margin-top: 129px; } }
 
+@media (max-width: 1024px) {
+  section.landing2 .scrollingText-1 {
+    margin-left: 125px; } }
+
 @media (max-width: 775px) {
   section.landing2 {
     margin-top: 0px; } }
+
+@media (max-width: 414px) {
+  section.landing2 .scrollingText-1 {
+    margin-left: 0px; } }
 
 @media (max-height: 375px) {
   section.landing2 {
@@ -2469,9 +2488,7 @@ section.designLanding2 {
 @media (max-width: 775px) {
   section.designLanding2 {
     margin-top: 0px;
-    position: relative;
-    margin-bottom: 400px;
-    margin-left: 85px; }
+    position: relative; }
   .mediaReset-headerFontSize {
     font-size: 50px; }
   .mediaReset-copyFontSize {
@@ -3305,7 +3322,9 @@ section.designList .designListPopUp4 {
   .socialMediaIcons-container {
     max-width: 205px;
     margin-left: 150px;
-    padding: 0; } }
+    padding: 0; }
+  .push-center {
+    margin-left: 75px; } }
 
 @media (max-width: 775px) {
   .landingPicture-2 {
@@ -3317,7 +3336,15 @@ section.designList .designListPopUp4 {
   .about {
     width: 345px; }
   .animation_container {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+  .center {
+    margin-left: 125px; }
+  .push-center {
+    margin-left: 10px; } }
+
+@media (max-height: 736px) {
+  .center {
+    margin-left: 125px; } }
 
 @media (max-width: 676px) {
   .home-sections .flex {
@@ -3382,7 +3409,8 @@ section.designList .designListPopUp4 {
     margin-left: 110px;
     padding: 0; }
   .center {
-    width: auto; } }
+    width: auto;
+    margin-left: 55px; } }
 
 @media (max-width: 375px) {
   .push-center {
