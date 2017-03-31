@@ -1131,7 +1131,7 @@ section .parallax-containerC {
   position: relative;
   width: 500px;
   height: 400px;
-  margin-left: 10px;
+  margin-left: 6px;
   margin-right: 10px;
   overflow: hidden;
   z-index: -1; }
@@ -1185,10 +1185,11 @@ section .landingP2 {
     margin-left: 0;
     margin-right: 0; } }
 
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   section .parallax-container {
     height: 570px;
-    width: auto; } }
+    width: auto;
+    margin-left: 6px; } }
 
 section.landing2 .scrollingText-1 {
   background-image: url(../imgs/scrollText/scrolling_textPoem1.gif);
@@ -3282,7 +3283,7 @@ section.designList .designListPopUp4 {
 @media (max-width: 1024px) {
   .center {
     padding-top: 50px;
-    margin-left: 75px;
+    margin-left: 55px;
     margin-top: 31px;
     width: 700px; }
   .push-right_designLanding {

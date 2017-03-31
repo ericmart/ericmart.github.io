@@ -1,0 +1,215 @@
+.design-aboutSection
+  //background: red
+  padding-left: 30px
+
+  .designGallery
+    display: block
+    max-width: 800px
+    overflow: hidden
+    margin-left: 455px
+    padding-right: 50px
+
+  #toggleWorks3
+    display: none
+
+  .socialMediaIcons li
+    display: inline-block
+    margin-top: 50px
+
+  .socialMediaIcons li a
+    width: 50px
+    height: 50px
+    display: block
+    cursor: pointer
+
+  .smIcon1
+    background:
+      image: url(../imgs/socialMedia_Icons/inactive/sm_icon-facebook1.png)
+      position: center
+      size: cover
+    width: 50px
+    height: 50px
+    display: block
+    list-style: none
+
+    :hover
+      background:
+        image: url(../imgs/socialMedia_Icons/sm_icon-facebook.png)
+        position: center
+        size: cover
+
+  .smIcon2
+    background:
+      image: url(../imgs/socialMedia_Icons/inactive/sm_icon-linkedin1.png)
+      position: center
+      size: cover
+    width: 50px
+    height: 50px
+    list-style: none
+
+    :hover
+      background:
+        image: url(../imgs/socialMedia_Icons/sm_icon-linkedin.png)
+        position: center
+        size: cover
+
+  .smIcon3
+    background:
+      image: url(../imgs/socialMedia_Icons/inactive/sm_icon-instagram1.png)
+      position: center
+      size: cover
+    width: 50px
+    height: 50px
+    list-style: none
+
+    :hover
+      background:
+        image: url(../imgs/socialMedia_Icons/sm_icon-instagram.png)
+        position: center
+        size: cover
+
+  @media (max-width: 1240px)
+    .designGallery
+      margin-left: 0
+      margin-top: 50px
+
+  @media (max-width: 775px)
+    .designGallery
+      padding-right: 30px
+
+    @media (max-width: 320px)
+      .designGallery#center
+        padding-bottom: 30px
+        padding-left: 0px
+        padding-right: 0px
+        margin-right: -45px
+
+      .designGallery#center2
+        padding-bottom: 30px
+        padding-left: 0px
+        padding-right: 13px
+        margin-right: -45px
+
+      .designGallery#centerB
+        padding-bottom: 30px
+        padding-left: 0px
+        padding-right: 12px
+        margin-right: -45px
+
+    @media (max-width: 768px)
+      .designGallery#center
+        padding-bottom: 30px
+
+  .rslides
+    position: relative
+    list-style: none
+    overflow: hidden
+    width: 100%
+    padding: 0
+    margin: 0
+
+  .rslides li
+    -webkit-backface-visibility: hidden
+    position: absolute
+    display: none
+    width: 100%
+    left: 0
+    top: 0
+
+  .rslides li:first-child
+    position: relative
+    display: block
+    float: left
+
+  .rslides img
+    display: block
+    height: auto
+    float: left
+    width: 100%
+    border: 0
+
+  .rslides_nav.rslides1_nav.next
+    float: right
+    margin-top: -62px
+
+  .rslides_nav.rslides1_nav.next a,
+  .rslides_nav.rslides1_nav.prev a
+    height: 10px
+    width: 10px
+
+  // Lightbox Styles
+  .modal-container
+    position: fixed
+    background-color: #fff
+    width: 70%
+    max-width: 800px
+    left: 50%
+    top: 90px
+    padding: 20px
+    border-radius: 5px
+    -webkit-transform: translate(-50%,-200%)
+    -ms-transform: translate(-50%,-200%)
+    transform: translate(-50%,-200%)
+    //z-index: 4
+
+  .modal:before
+    content: ""
+    position: fixed
+    display: none
+    background-color: rgba(0,0,0,.8)
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    //z-index: 3
+
+  .modal:target .modal-container
+    -webkit-transform: translate(-50%,-0%)
+    -ms-transform: translate(-50%,-0%)
+    transform: translate(-50%,-0%)
+
+
+@media (max-width: 1240px)
+  .design-aboutSection
+    padding-left: 70px
+
+@media (max-width: 1024px)
+  .design-aboutSection,
+    #mediaReset-text
+      font-size: 16px
+      width: 600px
+
+
+@media (max-width: 775px)
+  .design-aboutSection
+    margin-left: 0px
+    padding-left: 30px
+
+    #mediaReset-text
+      font-size: 14px
+      width: 500px
+
+@media (max-width: 414px)
+  .design-aboutSection .designGallery
+    padding-left: 20px
+    padding-right: 0px
+    width: 450px
+
+  #mediaReset
+    top: 275px
+    left: 18px
+
+@media (max-width: 360px)
+  .design-aboutSection
+    padding-left: 20px
+    width: 350px
+
+  #mediaReset
+    top: 255px
+    left: 18px
+
+@media (max-width: 320px)
+
+  #mediaReset
+    top: 335px
+    left: 18px

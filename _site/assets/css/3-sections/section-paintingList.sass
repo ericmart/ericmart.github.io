@@ -1,0 +1,115 @@
+section.paintingList
+  .paintingListPopUp
+    background:
+      image: url(../imgs/picsForSite/detailSlideEffect/painting/transfiguration-detail.png)
+      position: center
+      size: cover
+    height: 300px
+    width: 300px
+    top: 547px
+    margin-left: 750px
+    display: none
+    position: fixed
+
+  .paintingListPopUp2
+    background:
+      image: url(../imgs/picsForSite/detailSlideEffect/painting/disclosureII-detail.png)
+      position: center
+      size: cover
+    height: 300px
+    width: 300px
+    top: 547px
+    margin-left: 750px
+    display: none
+    position: fixed
+
+  .paintingListPopUp3
+    background:
+      image: url(../imgs/picsForSite/detailSlideEffect/painting/fallToDust-detail.png)
+      position: center
+      size: cover
+    height: 300px
+    width: 300px
+    top: 547px
+    margin-left: 750px
+    display: none
+    position: fixed
+
+  .paintingListPopUp4
+    background:
+      image: url(../imgs/picsForSite/detailSlideEffect/painting/fallToDustII-detail.png)
+      position: center
+      size: cover
+    height: 300px
+    width: 300px
+    top: 547px
+    margin-left: 750px
+    display: none
+    position: fixed
+
+  @media (max-width: 1182px)
+    .paintingListPopUp, .paintingListPopUp2, .paintingListPopUp3, .paintingListPopUp4
+      margin-left: 650px
+
+  @media (max-width: 775px)
+    .paintingListPopUp, .paintingListPopUp2, .paintingListPopUp3, .paintingListPopUp4
+      margin-left: 650px
+
+.scrollDirection
+  position: fixed
+  display: block
+  width: 80px
+  height: auto
+  margin-left: -125px
+  top: 630px
+  transform: rotate(90deg)
+
+@media (max-width: 1024px)
+  .scrollDirection
+    top: 450px
+
+// List Pop-Up Animation Styles
+
+.paintingListPopUp
+  margin-top: -720px
+  animation: drop 0.5s ease forwards
+
+@keyframes drop
+  0%
+  70%
+    transform: translateY(700px)
+  100%
+    transform: translateY(650px)
+
+.paintingListPopUp2
+  margin-top: -720px
+  animation: drop 0.5s ease forwards
+
+@keyframes drop
+  0%
+  70%
+    transform: translateY(700px)
+  100%
+    transform: translateY(650px)
+
+.paintingListPopUp3
+  margin-top: -720px
+  animation: drop 0.5s ease forwards
+
+@keyframes drop
+  0%
+  70%
+    transform: translateY(700px)
+  100%
+    transform: translateY(650px)
+
+.paintingListPopUp4
+  margin-top: -720px
+  animation: drop 0.5s ease forwards
+
+@keyframes drop
+  0%
+  70%
+    transform: translateY(700px)
+  100%
+    transform: translateY(650px)

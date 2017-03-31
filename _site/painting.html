@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Eric Michaels - Portfolio Website - Painting</title>
+        <meta name="viewport" content="width=device-width">
+
+				<link rel="stylesheet" href="/assets/css/main.css">
+
+				<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+				<script src="../assets/js/jquery.waypoints.min.js"></script>
+				<script src="../assets/js/jquery.easing.1.3.js"></script>
+				<script src="../assets/js/jquery.jkit.1.2.16.min.js"></script>
+				<script src="../assets/js/parallax.min.js"></script>
+				<script src="../assets/js/responsiveslides.min.js"></script>
+				<script src="../assets/js/function.js"></script>
+
+	     <script type="text/javascript">
+	         $(document).ready(function(){
+	         	$('body').jKit();
+	         });
+	     </script>
+
+    </head>
+    <body>
+
+    <div class="painting-wrap">
+
+  <div class="mobile-nav"><ul><li><a href="index.html">home</a></li><li id="active"><a href="painting.html">painting</a></li><li><a href="sculpture.html">sculpture</a></li><li><a href="video.html">video</a></li><!--li: a(href="#writing") writing--><li><a href="about-VA.html">about</a></li></ul></div><header><div class="header-position"><h1 class="logo">Eric Michaels</h1><nav class="site-nav"><ul><li><a href="index.html">home</a></li><li id="active"><a href="painting.html">painting</a></li><li><a href="sculpture.html">sculpture</a></li><li><a href="video.html">video</a></li><!--li: a(href="#writing") writing--><li><a href="about-VA.html">about</a></li></ul></nav><nav class="painting-nav"></nav><a href="mailto:eMichaels.art@gmail.com" class="email email-link">+ contact me</a><div class="mobile-nav-toggle"><span></span></div></div></header>
+
+  <div class="painting-sections">
+    <!-- all sections -->
+      <nav class="painting-nav m-scene"><ul class="worksList scene_element scene_element--fadeinright"><li><a href="pWork-Transfiguration.html" class="active">Transfiguration</a></li><li><a href="pWork-Disclosures.html" class="active2">Disclosures</a></li><li><a href="pWork-FallToDustII.html" class="active3">Fall To Dust II</a></li><li><a href="pWork-FallToDustI.html" class="active4">Fall To Dust I</a></li></ul><p class="scrollDirection smaller fadeIn">scroll this way ></p></nav>
+      <section class="paintingList"><div class="flex flex--center"><ul class="col-4"><h4 class="fadeIn">Painting</h4></ul><div class="col-5"><div class="paintingListPopUp"></div><div class="paintingListPopUp2"></div><div class="paintingListPopUp3"></div><div class="paintingListPopUp4"></div><div class="paintingListPopUp5"></div></div></div></section>
+
+    <div style="height: 1000px"></div>
+  </div>
+</div>
+
+
+		
+		<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+		</script>
+
+    </body>
+</html>
