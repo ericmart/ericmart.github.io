@@ -4,11 +4,6 @@
 //  alert('hello')
 //});
 
-// Scroll To Top Button
-//$(document).ready(function(){
-  //$('.scrollButton').jKit('show', { 'delay': '2000', 'speed': '500', 'duration': '5000' });
-//});
-
 // Expanding Nav2 (Visual Art and Design Toggle)
 //Visual Art Side
 $(document).ready(function() {
