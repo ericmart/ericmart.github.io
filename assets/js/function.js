@@ -4,6 +4,18 @@
 //  alert('hello')
 //});
 
+$(function() {
+  mobileNav();
+});
+
+function mobileNav() {
+  $('.mobile-nav-toggle').on('click', function() {
+    var status = $(this).hasClass('is-open');
+    if(status){ $('.mobile-nav-toggle, .mobile-nav').removeClass('is-open'); }
+    else { $('.mobile-nav-toggle, .mobile-nav').addClass('is-open fadeInToggle'); }
+  });
+}
+
 // Expanding Nav2 (Visual Art and Design Toggle)
 //Visual Art Side
 $(document).ready(function() {
@@ -39,9 +51,6 @@ $(document).ready(function() {
       }
   });
 });
-
-// Lightbox
-$('#myelement').jKit('lightbox', { '.rlslides': 'myalbum' });
 
 //responsiveSlideShow
 $(document).ready(function(){
