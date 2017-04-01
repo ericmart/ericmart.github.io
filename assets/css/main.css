@@ -1485,7 +1485,11 @@ section.landing5 .landing-picture5 {
   .painting-wrap .mobile-nav.is-open, .sculpture-wrap .mobile-nav.is-open, .video-wrap .mobile-nav.is-open, .design-wrap .mobile-nav.is-open {
     display: block;
     -webkit-transform: translateY(0%);
-            transform: translateY(0%); } }
+            transform: translateY(0%);
+    top: 91px;
+    z-index: 5;
+    -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; } }
 
 section.paintingList .paintingListPopUp {
   background-image: url(../imgs/picsForSite/detailSlideEffect/painting/transfiguration-detail.png);
