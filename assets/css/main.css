@@ -3488,7 +3488,9 @@ section.designList .designListPopUp4 {
 
 @media (max-width: 1024px) {
   .kerning {
-    font-size: 50px; } }
+    font-size: 50px; }
+  .smaller {
+    font-size: 15px; } }
 
 @media (max-width: 568px) {
   .smaller#media375-v {
@@ -3512,7 +3514,9 @@ section.designList .designListPopUp4 {
   .mediaReset320-fontSize {
     font-size: 55px; }
   .mediaReset320-fontSize2 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .smaller {
+    font-size: 10px; } }
 
 @media (max-width: 1240px) {
   #decrease {
