@@ -1063,8 +1063,8 @@ body {
 
 .home-wrap .mobile-nav {
   display: block;
-  position: absolute;
-  width: 135%;
+  position: fixed;
+  width: 100%;
   background: white;
   padding: 30px 0 20px;
   -webkit-transform: translateY(-100%);
@@ -1115,12 +1115,21 @@ body {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
+  .home-wrap .mobile-nav {
+    top: -45px; }
   .home-wrap .mobile-nav.is-open {
     display: block;
     -webkit-transform: translateY(65%);
     transform: translateY(65%);
     -webkit-transition: all .02s ease-in-out;
-    transition: all .02s ease-in-out; } }
+    transition: all .02s ease-in-out;
+    position: fixed;
+    z-index: 10; } }
+
+@media (max-width: 320px) {
+  .home-wrap .mobile-nav {
+    width: 100%;
+    top: -45px; } }
 
 section .parallax-container {
   position: relative;
@@ -1427,8 +1436,8 @@ section.landing5 .landing-picture5 {
             transform: rotate(-45deg); }
 
 .mobile-nav {
-  display: none;
-  position: absolute;
+  display: block;
+  position: fixed;
   width: 100%;
   background: white;
   padding: 30px 0 20px;
@@ -1450,6 +1459,10 @@ section.landing5 .landing-picture5 {
       color: grey;
       -webkit-transition: all 0.15s ease-in-out;
               transition: all 0.15s ease-in-out; }
+
+@media (max-width: 1240px) {
+  .painting-wrap #mediaReset-sculptureWorksList, .sculpture-wrap #mediaReset-sculptureWorksList, .video-wrap #mediaReset-sculptureWorksList, .design-wrap #mediaReset-sculptureWorksList {
+    top: -55px; } }
 
 @media (max-width: 775px) {
   .painting-wrap header, .sculpture-wrap header, .video-wrap header, .design-wrap header {
@@ -1482,14 +1495,21 @@ section.landing5 .landing-picture5 {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
+  .painting-wrap .mobile-nav, .sculpture-wrap .mobile-nav, .video-wrap .mobile-nav, .design-wrap .mobile-nav {
+    top: -45px; }
   .painting-wrap .mobile-nav.is-open, .sculpture-wrap .mobile-nav.is-open, .video-wrap .mobile-nav.is-open, .design-wrap .mobile-nav.is-open {
     display: block;
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-    top: 91px;
-    z-index: 5;
-    -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out; } }
+    -webkit-transform: translateY(65%);
+    transform: translateY(65%);
+    -webkit-transition: all .02s ease-in-out;
+    transition: all .02s ease-in-out;
+    position: fixed;
+    z-index: 10; } }
+
+@media (max-width: 320px) {
+  .home-wrap .mobile-nav {
+    width: 100%;
+    top: -45px; } }
 
 section.paintingList .paintingListPopUp {
   background-image: url(../imgs/picsForSite/detailSlideEffect/painting/transfiguration-detail.png);
@@ -1718,7 +1738,9 @@ section.paintingList .paintingListPopUp4 {
 
 @media (max-width: 1240px) {
   .paintingWork-sections {
-    padding-left: 70px; } }
+    padding-left: 70px; }
+  #mediaReset-paintingWorksList {
+    top: -50px; } }
 
 @media (max-width: 775px) {
   .paintingWork-sections {
@@ -2908,7 +2930,9 @@ section.designList .designListPopUp4 {
 
 @media (max-width: 1240px) {
   .designWork-sections {
-    padding-left: 70px; } }
+    padding-left: 70px; }
+  #mediaReset-designWorksList {
+    top: -10px; } }
 
 @media (max-width: 775px) {
   .designWork-sections {

@@ -148,8 +148,8 @@
 
 // Mobile Nav
 .mobile-nav
-  display: none
-  position: absolute
+  display: block
+  position: fixed
   width: 100%
   background: white
   padding: 30px 0 20px
@@ -172,6 +172,11 @@
       font-weight: bold
       color: grey
       transition: all 0.15s ease-in-out
+
+@media (max-width: 1240px)
+  .painting-wrap, .sculpture-wrap, .video-wrap, .design-wrap
+    #mediaReset-sculptureWorksList
+      top: -55px
 
 @media (max-width: 775px)
   .painting-wrap, .sculpture-wrap, .video-wrap, .design-wrap
@@ -200,9 +205,22 @@
       .mobile-nav-toggle
         display: flex
 
+    .mobile-nav
+      top: -45px
+
     .mobile-nav.is-open
       display: block
-      transform: translateY(0%)
-      top: 91px
-      z-index: 5
-      transition: all 0.3s ease-in-out
+      -ms-transform: translateY(65%)
+      -webkit-transform: translateY(65%)
+      transform: translateY(65%)
+      -ms-transition: all .02s ease-in-out
+      -webkit-transition: all .02s ease-in-out
+      transition: all .02s ease-in-out
+      position: fixed
+      z-index: 10
+
+@media (max-width: 320px)
+  .home-wrap
+    .mobile-nav
+      width: 100%
+      top: -45px
