@@ -2058,19 +2058,25 @@ section.sculptureList .sculptureListPopUp10 {
     .sculptureWork-sections .sculptureGallery, .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGallery, .sculptureWork-sectionsB .sculptureGalleryB {
       padding-right: 30px; } }
   @media (max-width: 375px) {
+    .sculptureWork-sections .sculptureGallery, .sculptureWork-sectionsB .sculptureGallery {
+      padding-right: 10px; }
     .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGalleryB {
-      padding-right: 0px;
-      margin-left: 10px; } }
+      padding-right: 15px;
+      margin-left: -11px; } }
+  @media (max-width: 320px) {
+    .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGalleryB {
+      padding-right: 15px;
+      margin-left: -38px; } }
 
-@media (max-width: 375px) and (max-width: 375px) {
+@media (max-width: 320px) and (max-width: 375px) {
   .sculptureWork-sections .sculptureGallery#centerB2, .sculptureWork-sectionsB .sculptureGallery#centerB2 {
     padding-bottom: 30px;
-    padding-left: 0px;
+    padding-left: 20px;
     padding-right: 20px;
     margin-right: -85px;
-    margin-left: -52px; } }
+    margin-left: -35px; } }
 
-@media (max-width: 375px) and (max-width: 320px) {
+@media (max-width: 320px) and (max-width: 320px) {
   .sculptureWork-sections .sculptureGallery#center, .sculptureWork-sectionsB .sculptureGallery#center {
     padding-bottom: 30px;
     padding-left: 0px;
@@ -2094,10 +2100,11 @@ section.sculptureList .sculptureListPopUp10 {
     margin-right: -85px;
     margin-left: -30px; }
   .sculptureWork-sections .sculptureGallery#centerB2, .sculptureWork-sectionsB .sculptureGallery#centerB2 {
-    padding-right: 7px;
+    padding-right: 25px;
+    padding-left: 18px;
     margin-left: -53px; } }
 
-@media (max-width: 375px) and (max-width: 375px) {
+@media (max-width: 320px) and (max-width: 375px) {
   .sculptureWork-sections .sculptureGallery#centerB, .sculptureWork-sectionsB .sculptureGallery#centerB {
     padding-right: 0px;
     width: 325px; }
@@ -2105,7 +2112,7 @@ section.sculptureList .sculptureListPopUp10 {
     padding-right: 0px;
     width: 338px; } }
 
-@media (max-width: 375px) and (max-width: 414px) {
+@media (max-width: 320px) and (max-width: 414px) {
   .sculptureWork-sections .sculptureGallery#centerB, .sculptureWork-sections .sculptureGallery#centerC, .sculptureWork-sectionsB .sculptureGallery#centerB, .sculptureWork-sectionsB .sculptureGallery#centerC {
     padding-right: 0px;
     padding-bottom: 30px; } }
