@@ -219,8 +219,42 @@
       position: fixed
       z-index: 10
 
-@media (max-width: 320px)
-  .home-wrap
-    .mobile-nav
+  .design-wrap
+    header
       width: 100%
-      top: -45px
+      padding: 20px 0
+      position: fixed
+      z-index: 5
+
+      .header-position
+        position: relative
+        width: auto
+        top: auto
+        bottom: auto
+        left: auto
+        flex-direction: row
+        align-items: center
+
+      .site-nav,
+      .email-link,
+        display: none
+
+      .logo
+        height: 45px
+
+      .mobile-nav-toggle
+        display: flex
+
+    .mobile-nav
+      top: -105px
+
+    .mobile-nav.is-open
+      display: block
+      -ms-transform: translateY(65%)
+      -webkit-transform: translateY(65%)
+      transform: translateY(65%)
+      -ms-transition: all .02s ease-in-out
+      -webkit-transition: all .02s ease-in-out
+      transition: all .02s ease-in-out
+      position: fixed
+      z-index: 10

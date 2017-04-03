@@ -1144,10 +1144,20 @@ body {
     position: fixed;
     z-index: 10; } }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .home-wrap .mobile-nav {
     width: 100%;
-    top: -45px; } }
+    top: -105px; }
+  .modeSwitch {
+    margin-bottom: 30px;
+    text-align: center; }
+    .modeSwitch li {
+      list-style: none; }
+  .modeSwitch-design {
+    margin-bottom: 30px;
+    text-align: center; }
+    .modeSwitch-design li {
+      list-style: none; } }
 
 section .parallax-container {
   position: relative;
@@ -1522,12 +1532,44 @@ section.landing5 .landing-picture5 {
     -webkit-transition: all .02s ease-in-out;
     transition: all .02s ease-in-out;
     position: fixed;
-    z-index: 10; } }
-
-@media (max-width: 320px) {
-  .home-wrap .mobile-nav {
+    z-index: 10; }
+  .design-wrap header {
     width: 100%;
-    top: -45px; } }
+    padding: 20px 0;
+    position: fixed;
+    z-index: 5; }
+    .design-wrap header .header-position {
+      position: relative;
+      width: auto;
+      top: auto;
+      bottom: auto;
+      left: auto;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .design-wrap header .site-nav,
+    .design-wrap header .email-link {
+      display: none; }
+    .design-wrap header .logo {
+      height: 45px; }
+    .design-wrap header .mobile-nav-toggle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  .design-wrap .mobile-nav {
+    top: -105px; }
+  .design-wrap .mobile-nav.is-open {
+    display: block;
+    -webkit-transform: translateY(65%);
+    transform: translateY(65%);
+    -webkit-transition: all .02s ease-in-out;
+    transition: all .02s ease-in-out;
+    position: fixed;
+    z-index: 10; } }
 
 section.paintingList .paintingListPopUp {
   background-image: url(../imgs/picsForSite/detailSlideEffect/painting/transfiguration-detail.png);
@@ -2963,7 +3005,7 @@ section.designList .designListPopUp4 {
   .designWork-sections {
     padding-left: 70px; }
   #mediaReset-designWorksList {
-    top: -10px; } }
+    top: -55px; } }
 
 @media (max-width: 775px) {
   .designWork-sections {
