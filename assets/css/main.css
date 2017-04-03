@@ -1571,6 +1571,12 @@ section.landing5 .landing-picture5 {
     position: fixed;
     z-index: 10; } }
 
+@media (max-width: 414px) {
+  .painting-wrap #mediaReset-sculptureWorksList, .painting-wrap #mediaReset-paintingWorksList, .painting-wrap #mediaReset-videoWorksList, .sculpture-wrap #mediaReset-sculptureWorksList, .sculpture-wrap #mediaReset-paintingWorksList, .sculpture-wrap #mediaReset-videoWorksList, .video-wrap #mediaReset-sculptureWorksList, .video-wrap #mediaReset-paintingWorksList, .video-wrap #mediaReset-videoWorksList, .design-wrap #mediaReset-sculptureWorksList, .design-wrap #mediaReset-paintingWorksList, .design-wrap #mediaReset-videoWorksList {
+    top: -105px; }
+  .painting-wrap #mediaReset-designWorksList, .sculpture-wrap #mediaReset-designWorksList, .video-wrap #mediaReset-designWorksList, .design-wrap #mediaReset-designWorksList {
+    top: -70px; } }
+
 section.paintingList .paintingListPopUp {
   background-image: url(../imgs/picsForSite/detailSlideEffect/painting/transfiguration-detail.png);
   background-position: center;
@@ -1748,6 +1754,9 @@ section.paintingList .paintingListPopUp4 {
   @media (max-width: 768px) {
     .paintingWork-sections .paintingGallery#center {
       padding-bottom: 30px; } }
+  @media (max-width: 375px) {
+    .paintingWork-sections .paintingGallery#center {
+      padding-right: 22px; } }
   .paintingWork-sections .rslides {
     position: relative;
     list-style: none;
@@ -2104,8 +2113,6 @@ section.sculptureList .sculptureListPopUp10 {
     .sculptureWork-sections .sculptureGallery, .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGallery, .sculptureWork-sectionsB .sculptureGalleryB {
       padding-right: 30px; } }
   @media (max-width: 375px) {
-    .sculptureWork-sections .sculptureGallery, .sculptureWork-sectionsB .sculptureGallery {
-      padding-right: 10px; }
     .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGalleryB {
       padding-right: 15px;
       margin-left: -11px; } }
