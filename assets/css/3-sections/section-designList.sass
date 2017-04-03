@@ -35,25 +35,12 @@ section.designList
     display: none
     position: fixed
 
-  .designListPopUp4
-    background:
-      //image: url(../imgs/picsForSite/detailSlideEffect/painting/fallToDustII-detail.png)
-      color: red
-      position: center
-      size: cover
-    height: 300px
-    width: 300px
-    top: 547px
-    margin-left: 750px
-    display: none
-    position: fixed
-
   @media (max-width: 1182px)
-    .designListPopUp, .designListPopUp2, .designListPopUp3, .designListPopUp4
+    .designListPopUp, .designListPopUp2, .designListPopUp3
       margin-left: 650px
 
   @media (max-width: 775px)
-    .designListPopUp, .designListPopUp2, .designListPopUp3, .designListPopUp4
+    .designListPopUp, .designListPopUp2, .designListPopUp3
       margin-left: 650px
 
 // List Pop-Up Animation Styles
@@ -81,17 +68,6 @@ section.designList
     transform: translateY(650px)
 
 .designListPopUp3
-  margin-top: -720px
-  animation: drop 0.5s ease forwards
-
-@keyframes drop
-  0%
-  70%
-    transform: translateY(700px)
-  100%
-    transform: translateY(650px)
-
-.designListPopUp4
   margin-top: -720px
   animation: drop 0.5s ease forwards
 

@@ -2835,23 +2835,12 @@ section.designList .designListPopUp3 {
   display: none;
   position: fixed; }
 
-section.designList .designListPopUp4 {
-  background-color: red;
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-  top: 547px;
-  margin-left: 750px;
-  display: none;
-  position: fixed; }
-
 @media (max-width: 1182px) {
-  section.designList .designListPopUp, section.designList .designListPopUp2, section.designList .designListPopUp3, section.designList .designListPopUp4 {
+  section.designList .designListPopUp, section.designList .designListPopUp2, section.designList .designListPopUp3 {
     margin-left: 650px; } }
 
 @media (max-width: 775px) {
-  section.designList .designListPopUp, section.designList .designListPopUp2, section.designList .designListPopUp3, section.designList .designListPopUp4 {
+  section.designList .designListPopUp, section.designList .designListPopUp2, section.designList .designListPopUp3 {
     margin-left: 650px; } }
 
 .designListPopUp {
@@ -2883,20 +2872,6 @@ section.designList .designListPopUp4 {
             transform: translateY(650px); } }
 
 .designListPopUp3 {
-  margin-top: -720px;
-  -webkit-animation: drop 0.5s ease forwards;
-          animation: drop 0.5s ease forwards; }
-
-@keyframes drop {
-  0% { }
-  70% {
-    -webkit-transform: translateY(700px);
-            transform: translateY(700px); }
-  100% {
-    -webkit-transform: translateY(650px);
-            transform: translateY(650px); } }
-
-.designListPopUp4 {
   margin-top: -720px;
   -webkit-animation: drop 0.5s ease forwards;
           animation: drop 0.5s ease forwards; }
