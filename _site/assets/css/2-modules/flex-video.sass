@@ -11,6 +11,10 @@
   .flex-video-width#mediaVideoFrame-resetB
     margin-left: -46px
 
+@media (max-width: 320px)
+  .flex-video-widthB
+    margin-left: -15px
+
 .flex-video iframe,
 .flex-video object,
 .flex-video embed,
@@ -21,7 +25,7 @@
   width: 100%
   left: 0
 
-.flex-video-width
+.flex-video-width, .flex-video-widthB
   height: 0
   width: 800px
   overflow: hidden
@@ -32,6 +36,16 @@
 .flex-video-width object,
 .flex-video-width embed,
 .flex-video-width video
+  height: 100%
+  position: absolute
+  top: 0
+  width: 100%
+  left: 0
+
+.flex-video-widthB iframe,
+.flex-video-widthB object,
+.flex-video-widthB embed,
+.flex-video-widthB video
   height: 100%
   position: absolute
   top: 0

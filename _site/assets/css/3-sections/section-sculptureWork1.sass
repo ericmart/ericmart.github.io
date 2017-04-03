@@ -1,21 +1,21 @@
-.sculptureWork-sections
+.sculptureWork-sections, .sculptureWork-sectionsB
   //background: red
   padding-left: 30px
 
   @media (max-width: 768px)
-    .sculptureWork-sections
+    .sculptureWork-sections, .sculptureWork-sectionsB
       margin-left: -30px
 
   @media (max-width: 414px)
-    .sculptureWork-sections
+    .sculptureWork-sections, .sculptureWork-sectionsB
       margin-left: -25px
-      padding-right: 30px
+      padding-right: 0px
 
   @media (max-width: 320px)
-    .sculptureWork-sections
+    .sculptureWork-sections, .sculptureWork-sectionsB
       margin-left: 0px
 
-  .sculptureGallery
+  .sculptureGallery, .sculptureGalleryB
     display: block
     max-width: 800px
     overflow: hidden
@@ -26,13 +26,26 @@
     display: none
 
   @media (max-width: 1240px)
-    .sculptureGallery
+    .sculptureGallery, .sculptureGalleryB
       margin-left: 0
       margin-top: 50px
 
   @media (max-width: 775px)
-    .sculptureGallery
+    .sculptureGallery, .sculptureGalleryB
       padding-right: 30px
+
+  @media (max-width: 375px)
+    .sculptureGalleryB
+      padding-right: 0px
+      margin-left: 10px
+
+    @media (max-width: 375px)
+      .sculptureGallery#centerB2
+        padding-bottom: 30px
+        padding-left: 0px
+        padding-right: 20px
+        margin-right: -85px
+        margin-left: -14px
 
     @media (max-width: 320px)
       .sculptureGallery#center
@@ -51,23 +64,31 @@
         padding-bottom: 30px
         padding-left: 0px
         padding-right: 13px
-        margin-right: -45px
+        margin-right: -89px
         margin-left: -42px
 
-      .sculptureGallery#centerB
+      .sculptureGallery#centerB, .sculptureGallery#centerC
         padding-bottom: 30px
         padding-left: 0px
         padding-right: 0px
         margin-right: -85px
         margin-left: -30px
 
+      .sculptureGallery#centerB2
+        padding-right: 7px
+        margin-left: -30px
+
     @media (max-width: 375px)
       .sculptureGallery#centerB
         padding-right: 0px
-        width: 300px
+        width: 325px
+
+      .sculptureGallery#centerC
+        padding-right: 0px
+        width: 338px
 
     @media (max-width: 414px)
-      .sculptureGallery#centerB
+      .sculptureGallery#centerB, .sculptureGallery#centerC
         padding-right: 0px
         padding-bottom: 30px
 

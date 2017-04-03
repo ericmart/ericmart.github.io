@@ -599,6 +599,10 @@ body {
   .flex-video-width#mediaVideoFrame-resetB {
     margin-left: -46px; } }
 
+@media (max-width: 320px) {
+  .flex-video-widthB {
+    margin-left: -15px; } }
+
 .flex-video iframe,
 .flex-video object,
 .flex-video embed,
@@ -609,7 +613,7 @@ body {
   width: 100%;
   left: 0; }
 
-.flex-video-width {
+.flex-video-width, .flex-video-widthB {
   height: 0;
   width: 800px;
   overflow: hidden;
@@ -620,6 +624,16 @@ body {
 .flex-video-width object,
 .flex-video-width embed,
 .flex-video-width video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0; }
+
+.flex-video-widthB iframe,
+.flex-video-widthB object,
+.flex-video-widthB embed,
+.flex-video-widthB video {
   height: 100%;
   position: absolute;
   top: 0;
@@ -1660,27 +1674,33 @@ section.paintingList .paintingListPopUp4 {
   @media (max-width: 775px) {
     .paintingWork-sections .paintingGallery {
       padding-right: 30px; } }
-
-@media (max-width: 775px) and (max-width: 320px) {
-  .paintingWork-sections .paintingGallery#center {
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: -45px; }
-  .paintingWork-sections .paintingGallery#center2 {
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 13px;
-    margin-right: -45px; }
-  .paintingWork-sections .paintingGallery#centerB {
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 12px;
-    margin-right: -45px; } }
-
-@media (max-width: 775px) and (max-width: 768px) {
-  .paintingWork-sections .paintingGallery#center {
-    padding-bottom: 30px; } }
+  @media (max-width: 375px) {
+    .paintingWork-sections .paintingGallery#center {
+      margin-left: -8px;
+      padding-right: 0px; }
+    .paintingWork-sections .paintingGallery#centerB {
+      padding-right: 20px; }
+    .paintingWork-sections .paintingGallery#center2 {
+      padding-right: 20px; } }
+  @media (max-width: 320px) {
+    .paintingWork-sections .paintingGallery#center {
+      padding-bottom: 30px;
+      padding-left: 11px;
+      padding-right: 0px;
+      margin-right: -45px; }
+    .paintingWork-sections .paintingGallery#center2 {
+      padding-bottom: 30px;
+      padding-left: 0px;
+      padding-right: 13px;
+      margin-right: -45px; }
+    .paintingWork-sections .paintingGallery#centerB {
+      padding-bottom: 30px;
+      padding-left: 0px;
+      padding-right: 12px;
+      margin-right: -45px; } }
+  @media (max-width: 768px) {
+    .paintingWork-sections .paintingGallery#center {
+      padding-bottom: 30px; } }
   .paintingWork-sections .rslides {
     position: relative;
     list-style: none;
@@ -2009,99 +2029,118 @@ section.sculptureList .sculptureListPopUp10 {
     -webkit-transform: translateY(650px);
             transform: translateY(650px); } }
 
-.sculptureWork-sections {
+.sculptureWork-sections, .sculptureWork-sectionsB {
   padding-left: 30px; }
   @media (max-width: 768px) {
-    .sculptureWork-sections .sculptureWork-sections {
+    .sculptureWork-sections .sculptureWork-sections, .sculptureWork-sections .sculptureWork-sectionsB, .sculptureWork-sectionsB .sculptureWork-sections, .sculptureWork-sectionsB .sculptureWork-sectionsB {
       margin-left: -30px; } }
   @media (max-width: 414px) {
-    .sculptureWork-sections .sculptureWork-sections {
+    .sculptureWork-sections .sculptureWork-sections, .sculptureWork-sections .sculptureWork-sectionsB, .sculptureWork-sectionsB .sculptureWork-sections, .sculptureWork-sectionsB .sculptureWork-sectionsB {
       margin-left: -25px;
-      padding-right: 30px; } }
+      padding-right: 0px; } }
   @media (max-width: 320px) {
-    .sculptureWork-sections .sculptureWork-sections {
+    .sculptureWork-sections .sculptureWork-sections, .sculptureWork-sections .sculptureWork-sectionsB, .sculptureWork-sectionsB .sculptureWork-sections, .sculptureWork-sectionsB .sculptureWork-sectionsB {
       margin-left: 0px; } }
-  .sculptureWork-sections .sculptureGallery {
+  .sculptureWork-sections .sculptureGallery, .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGallery, .sculptureWork-sectionsB .sculptureGalleryB {
     display: block;
     max-width: 800px;
     overflow: hidden;
     margin-left: 455px;
     padding-right: 50px; }
-  .sculptureWork-sections #toggleWorks3 {
+  .sculptureWork-sections #toggleWorks3, .sculptureWork-sectionsB #toggleWorks3 {
     display: none; }
   @media (max-width: 1240px) {
-    .sculptureWork-sections .sculptureGallery {
+    .sculptureWork-sections .sculptureGallery, .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGallery, .sculptureWork-sectionsB .sculptureGalleryB {
       margin-left: 0;
       margin-top: 50px; } }
   @media (max-width: 775px) {
-    .sculptureWork-sections .sculptureGallery {
+    .sculptureWork-sections .sculptureGallery, .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGallery, .sculptureWork-sectionsB .sculptureGalleryB {
       padding-right: 30px; } }
+  @media (max-width: 375px) {
+    .sculptureWork-sections .sculptureGalleryB, .sculptureWork-sectionsB .sculptureGalleryB {
+      padding-right: 0px;
+      margin-left: 10px; } }
 
-@media (max-width: 775px) and (max-width: 320px) {
-  .sculptureWork-sections .sculptureGallery#center {
+@media (max-width: 375px) and (max-width: 375px) {
+  .sculptureWork-sections .sculptureGallery#centerB2, .sculptureWork-sectionsB .sculptureGallery#centerB2 {
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-right: -85px;
+    margin-left: -52px; } }
+
+@media (max-width: 375px) and (max-width: 320px) {
+  .sculptureWork-sections .sculptureGallery#center, .sculptureWork-sectionsB .sculptureGallery#center {
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
     margin-right: -45px; }
-  .sculptureWork-sections .sculptureGallery#center2 {
+  .sculptureWork-sections .sculptureGallery#center2, .sculptureWork-sectionsB .sculptureGallery#center2 {
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 13px;
     margin-right: -45px; }
-  .sculptureWork-sections .sculptureGallery#center2B {
+  .sculptureWork-sections .sculptureGallery#center2B, .sculptureWork-sectionsB .sculptureGallery#center2B {
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 13px;
-    margin-right: -45px;
+    margin-right: -89px;
     margin-left: -42px; }
-  .sculptureWork-sections .sculptureGallery#centerB {
+  .sculptureWork-sections .sculptureGallery#centerB, .sculptureWork-sections .sculptureGallery#centerC, .sculptureWork-sectionsB .sculptureGallery#centerB, .sculptureWork-sectionsB .sculptureGallery#centerC {
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
     margin-right: -85px;
-    margin-left: -30px; } }
+    margin-left: -30px; }
+  .sculptureWork-sections .sculptureGallery#centerB2, .sculptureWork-sectionsB .sculptureGallery#centerB2 {
+    padding-right: 7px;
+    margin-left: -53px; } }
 
-@media (max-width: 775px) and (max-width: 375px) {
-  .sculptureWork-sections .sculptureGallery#centerB {
+@media (max-width: 375px) and (max-width: 375px) {
+  .sculptureWork-sections .sculptureGallery#centerB, .sculptureWork-sectionsB .sculptureGallery#centerB {
     padding-right: 0px;
-    width: 300px; } }
+    width: 325px; }
+  .sculptureWork-sections .sculptureGallery#centerC, .sculptureWork-sectionsB .sculptureGallery#centerC {
+    padding-right: 0px;
+    width: 338px; } }
 
-@media (max-width: 775px) and (max-width: 414px) {
-  .sculptureWork-sections .sculptureGallery#centerB {
+@media (max-width: 375px) and (max-width: 414px) {
+  .sculptureWork-sections .sculptureGallery#centerB, .sculptureWork-sections .sculptureGallery#centerC, .sculptureWork-sectionsB .sculptureGallery#centerB, .sculptureWork-sectionsB .sculptureGallery#centerC {
     padding-right: 0px;
     padding-bottom: 30px; } }
-  .sculptureWork-sections .rslides {
+  .sculptureWork-sections .rslides, .sculptureWork-sectionsB .rslides {
     position: relative;
     list-style: none;
     overflow: hidden;
     width: 100%;
     padding: 0;
     margin: 0; }
-  .sculptureWork-sections .rslides li {
+  .sculptureWork-sections .rslides li, .sculptureWork-sectionsB .rslides li {
     -webkit-backface-visibility: hidden;
     position: absolute;
     display: none;
     width: 100%;
     left: 0;
     top: 0; }
-  .sculptureWork-sections .rslides li:first-child {
+  .sculptureWork-sections .rslides li:first-child, .sculptureWork-sectionsB .rslides li:first-child {
     position: relative;
     display: block;
     float: left; }
-  .sculptureWork-sections .rslides img {
+  .sculptureWork-sections .rslides img, .sculptureWork-sectionsB .rslides img {
     display: block;
     height: auto;
     float: left;
     width: 100%;
     border: 0; }
-  .sculptureWork-sections .rslides_nav.rslides1_nav.next {
+  .sculptureWork-sections .rslides_nav.rslides1_nav.next, .sculptureWork-sectionsB .rslides_nav.rslides1_nav.next {
     float: right;
     margin-top: -62px; }
   .sculptureWork-sections .rslides_nav.rslides1_nav.next a,
-  .sculptureWork-sections .rslides_nav.rslides1_nav.prev a {
+  .sculptureWork-sections .rslides_nav.rslides1_nav.prev a, .sculptureWork-sectionsB .rslides_nav.rslides1_nav.next a,
+  .sculptureWork-sectionsB .rslides_nav.rslides1_nav.prev a {
     height: 10px;
     width: 10px; }
-  .sculptureWork-sections .modal-container {
+  .sculptureWork-sections .modal-container, .sculptureWork-sectionsB .modal-container {
     position: fixed;
     background-color: #fff;
     width: 70%;
@@ -2112,7 +2151,7 @@ section.sculptureList .sculptureListPopUp10 {
     border-radius: 5px;
     -webkit-transform: translate(-50%, -200%);
     transform: translate(-50%, -200%); }
-  .sculptureWork-sections .modal:before {
+  .sculptureWork-sections .modal:before, .sculptureWork-sectionsB .modal:before {
     content: "";
     position: fixed;
     display: none;
@@ -2121,7 +2160,7 @@ section.sculptureList .sculptureListPopUp10 {
     left: 0;
     height: 100%;
     width: 100%; }
-  .sculptureWork-sections .modal:target .modal-container {
+  .sculptureWork-sections .modal:target .modal-container, .sculptureWork-sectionsB .modal:target .modal-container {
     -webkit-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%); }
 
@@ -3165,6 +3204,9 @@ section.designList .designListPopUp4 {
 @media (max-width: 775px) {
   .col-1b {
     margin-top: 100px; } }
+
+.col-1c {
+  padding-right: 5px; }
 
 .col-2 {
   max-width: 648px;
