@@ -3333,10 +3333,6 @@ section.designList .designListPopUp4 {
   top: 30px;
   margin-bottom: 20px; }
 
-@media (max-width: 1240px) {
-  .col-description {
-    max-width: 600px; } }
-
 .col-5, .col-6 {
   max-width: 575px;
   margin: 0 10px; }
@@ -3374,7 +3370,9 @@ section.designList .designListPopUp4 {
     margin-top: 63px; }
   .container2 {
     margin-left: -202px;
-    margin-top: 241px; } }
+    margin-top: 241px; }
+  .col-description {
+    width: 600px; } }
 
 @media (max-width: 1040px) {
   .landingPicture-2 {
