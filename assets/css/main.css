@@ -2968,7 +2968,11 @@ section.designList .designListPopUp4 {
     padding-left: 10px; } }
 
 .design-aboutSection {
-  padding-left: 30px; }
+  padding-left: 30px;
+  padding-bottom: 30px; }
+  @media (max-width: 320px) {
+    .design-aboutSection {
+      padding-bottom: 0px; } }
   .design-aboutSection .designGallery {
     display: block;
     max-width: 800px;
