@@ -381,17 +381,6 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $(".active4-d").mouseover(function(){
-        $(".designListPopUp4").fadeIn();
-    });
-
-    $('.active4-d').mouseout(function(){
-      $(".designListPopUp4").fadeOut();
-
-    });
-});
-
 // Design Page
 // Fade Out On Scroll
 
