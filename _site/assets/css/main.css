@@ -2891,8 +2891,11 @@ section.designList .designListPopUp4 {
   @media (max-width: 775px) {
     .designWork-sections .designGallery {
       padding-right: 30px; } }
+  @media (max-width: 375px) {
+    .designWork-sections .designGallery {
+      padding-right: 20px; } }
 
-@media (max-width: 775px) and (max-width: 320px) {
+@media (max-width: 375px) and (max-width: 320px) {
   .designWork-sections .designGallery#center {
     padding-bottom: 30px;
     padding-left: 0px;
@@ -2902,16 +2905,7 @@ section.designList .designListPopUp4 {
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 13px;
-    margin-right: -45px; }
-  .designWork-sections .designGallery#centerB {
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 12px;
     margin-right: -45px; } }
-
-@media (max-width: 775px) and (max-width: 768px) {
-  .designWork-sections .designGallery#center {
-    padding-bottom: 30px; } }
   .designWork-sections .rslides {
     position: relative;
     list-style: none;
@@ -3313,7 +3307,7 @@ section.designList .designListPopUp4 {
   cursor: default; }
 
 .col-description {
-  max-width: 346px; }
+  width: 346px; }
 
 .col-toggleWorks {
   max-width: 300px;
