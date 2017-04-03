@@ -16,7 +16,6 @@ function mobileNav() {
   });
 }
 
-// Expanding Nav2 (Visual Art and Design Toggle)
 //Visual Art Side
 $(document).ready(function() {
   $('#nav2Button').click(function(){

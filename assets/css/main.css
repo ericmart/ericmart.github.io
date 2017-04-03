@@ -640,6 +640,10 @@ body {
   width: 100%;
   left: 0; }
 
+.btnRotation {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
