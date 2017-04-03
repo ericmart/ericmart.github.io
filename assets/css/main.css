@@ -1589,7 +1589,8 @@ section.paintingList .paintingListPopUp4 {
 
 @media (max-width: 1024px) {
   .scrollDirection {
-    top: 450px; } }
+    top: 450px;
+    width: auto; } }
 
 .paintingListPopUp {
   margin-top: -720px;
@@ -2799,20 +2800,6 @@ section.designList .designListPopUp4 {
 @media (max-width: 775px) {
   section.designList .designListPopUp, section.designList .designListPopUp2, section.designList .designListPopUp3, section.designList .designListPopUp4 {
     margin-left: 650px; } }
-
-.scrollDirection {
-  position: fixed;
-  display: block;
-  width: 80px;
-  height: auto;
-  margin-left: -125px;
-  top: 630px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg); }
-
-@media (max-width: 1024px) {
-  .scrollDirection {
-    top: 450px; } }
 
 .designListPopUp {
   margin-top: -720px;
