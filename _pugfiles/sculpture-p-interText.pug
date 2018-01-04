@@ -1,0 +1,49 @@
+section.sculpture-portfolioPage
+  .container
+    .row
+      .col.l12.m12.s12#workSlideshow
+        .carousel.carousel-slider.center(data-indicators='true')
+          .carousel-item.white-text(href='#one!')
+            img(src='/assets/imgs/portfolioWork/visualArt/sculpture/interText/inter-text-p1.jpg')
+          .carousel-item.white-text(href='#two!')
+            img(src='/assets/imgs/portfolioWork/visualArt/sculpture/interText/inter-text-p2.jpg')
+          .carousel-item.white-text(href='#three!')
+            img(src='/assets/imgs/portfolioWork/visualArt/sculpture/interText/inter-text-detail_p3.jpg')
+          .carousel-item.white-text(href='#four!')
+            img(src='/assets/imgs/portfolioWork/visualArt/sculpture/interText/inter-text-detail_p4.jpg')
+          .carousel-item.white-text(href='#five!')
+            img(src='/assets/imgs/portfolioWork/visualArt/sculpture/interText/inter-text-detail_p5.jpg')
+
+    .row
+      .col.l1
+        button.togglePortfolioCopy.waves-effect.waves-light
+          i.fa.fa-chevron-up(aria-hidden='true')
+      .col.l5.m2
+        p#workSubHeading TOGGLE WORK DESCRIPTION
+      .col.l1.m2.s4.offset-l5.offset-m3
+        ul.center-align
+          li#portfolioPageNext
+            a(href='sculpture-sidewayMirror.html')
+              i.fa.fa-chevron-right(aria-hidden='true').right.waves-effect
+    .row.portfolioCopy
+      .col.l4.m4.s12
+        h3.workTitle Inter-Text-You-Ability
+        h6.push-leading.workSubHeading 2015-16
+        p.workSubHeading SCULPTURE
+          p.workDescription
+            | Inter-Text-You-Ability is a multi-faceted sculpture that encompasses an installation,
+            | a poem, and a video work. This large endeavor pushes the limit of physicality and
+            | endurance of the artwork, and the artist making it. The installation features an art
+            | exhibition staged within itself, showcasing a small collection of commissioned ready-made
+            | objects, along with a piece from the artist as a homage to Constantin Brâncuși.
+      .col.l4.m4.s12
+        p.workDescription.pushDown
+          | To view the video portion of Inter-Text-You-Ability:
+          br
+          a(href='#')
+            | Click this link
+      .col.l1.m1.s1
+        ul.center-align
+          li#next
+            a(href='sculpture-sidewayMirror.html')
+              i.fa.fa-chevron-right(aria-hidden='true').right.waves-effect

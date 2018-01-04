@@ -1,0 +1,38 @@
+section.video-portfolioPage
+  .container
+    .row
+      .col.l12.m12.s12
+        iframe(src='https://player.vimeo.com/video/93658586', width='940', height='660', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
+          p
+            a(href='https://vimeo.com/93658586') John 3:16 (2014)
+            |  from
+            a(href='https://vimeo.com/user22646825') Eric Michaels
+            |  on
+            a(href='https://vimeo.com') Vimeo
+            | .
+
+
+    .row
+      .col.l1
+        button.togglePortfolioCopy.waves-effect.waves-light
+          i.fa.fa-chevron-up(aria-hidden='true')
+      .col.l5.m2
+        p#workSubHeading TOGGLE WORK DESCRIPTION
+      .col.l1.m2.s4.offset-l5.offset-m3
+        ul.center-align
+          li#portfolioPageNext
+            a(href='video-interText.html')
+              i.fa.fa-chevron-right(aria-hidden='true').right.waves-effect
+    .row.portfolioCopy
+      .col.l6.m6.s12
+        h3.workTitle John 3:16
+        h6.push-leading.workSubHeading 2014
+        p.workSubHeading VIDEO
+          p.workDescription
+            | Video
+            | Duration: 1:38
+      .col.l1.m1.s1
+        ul.center-align
+          li#next
+            a(href='video-interText.html')
+              i.fa.fa-chevron-right(aria-hidden='true').right.waves-effect

@@ -1,42 +1,14 @@
-@import "0-tools/fonts";
 @import "0-tools/bourbon/bourbon";
 @import "0-tools/normalize";
+@import "0-tools/materialize/materialize";
+@import "0-tools/slick/slick";
+@import "0-tools/slick/slick-theme";
 
-@import "1-base/vars";
 @import "1-base/base";
 
-@import "2-modules/scrollButton";
-@import "2-modules/flex-video";
-@import "2-modules/animations";
-
-@import "3-sections/header";
-@import "3-sections/home-landing";
-@import "3-sections/home-landing2";
-@import "3-sections/home-landing3";
-@import "3-sections/home-landing4";
-@import "3-sections/home-landing5";
-@import "3-sections/painting-header";
-@import "3-sections/section-paintingList";
-@import "3-sections/section-paintingWork1";
-@import "3-sections/section-sculptureList";
-@import "3-sections/section-sculptureWork1";
-@import "3-sections/section-videoList";
-@import "3-sections/section-videoWork1";
-@import "3-sections/design-landing2";
-@import "3-sections/design-landing3";
-@import "3-sections/design-landing4";
-@import "3-sections/section-designList";
-@import "3-sections/section-designWork1";
-@import "3-sections/design-aboutSection";
-
-
-
-@import "4-layouts/home";
-@import "4-layouts/painting";
-@import "4-layouts/sculpture";
-@import "4-layouts/video";
-@import "4-layouts/design";
-@import "4-layouts/paintingList";
-@import "4-layouts/sculptureList";
-@import "4-layouts/videoList";
-@import "4-layouts/designList";
+@import "3-layouts/home";
+@import "3-layouts/aboutPage";
+@import "3-layouts/footer";
+@import "3-layouts/slideout-nav";
+@import "3-layouts/design-workList";
+@import "3-layouts/design-workPage";

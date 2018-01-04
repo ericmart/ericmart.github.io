@@ -1,0 +1,102 @@
+// Beginning of Footer - Section Styles
+
+
+footer {
+  background-color: white !important;
+}
+
+.page-footer {
+  padding-top: 45px;
+}
+
+.footer h5,
+.footer ul li {
+  color: lightgrey;
+}
+
+.footer ul li i {
+  color: darkgrey;
+}
+
+.footer li a:visited {
+  color: black;
+}
+
+.footer ul li a:hover,
+.footer-copyright a:hover {
+  color: lightgrey !important;
+  text-decoration: underline;
+}
+
+// Animations
+.footer-hidden {
+  opacity: 0;
+}
+.footer-visible {
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+   opacity: 1;
+}
+
+// Media Queries
+@media screen and (max-width: 1600px) and (max-height: 1366px) {
+  .footer {
+    width: 1600px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .footer {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 1024px) {
+  .footer {
+    width: 1750px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .footer {
+    width: 1500px;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px){
+  .footer {
+    width: 970px;
+  }
+
+  h5 {
+    font-size: 2.64rem;
+  }
+
+  .col.l6.s12
+    p {
+      font-size: 20px;
+    }
+
+  .col.l2.s12
+  ul {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .footer {
+    width: 935px;
+  }
+
+  .col.l6.s12
+    p {
+      font-size: 25px;
+    }
+
+  .col.l2.s12
+  ul {
+    font-size: 25px;
+  }
+}

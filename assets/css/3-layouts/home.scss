@@ -1,0 +1,460 @@
+// Beginning of Home - Section Styles
+
+.home-landing {
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+// End of Home - Section Styles
+
+// Beginning of Navigation Styles
+nav {
+  box-shadow: none;
+  background-color: white;
+}
+
+.nav {
+  background-color: white;
+  top: 0px;
+  height: 165px;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+}
+
+.nav-wrapper {
+  height: 100%;
+  margin: 82px 0px 50px 0px;
+}
+
+nav .brand-logo {
+  display: block;
+  left: 172px;
+  width: auto;
+  color: rgba(0,174,239,1);
+}
+
+a:hover {
+  color: lightblue;
+}
+
+ul li a {
+  color: lightblue;
+}
+
+
+.nextPrev {
+  margin-top: 375px;
+}
+
+.control_prev, .control_next {
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+}
+
+
+// Nav Hamburger Menu
+
+button {
+  text-decoration: none;
+}
+
+.nav-icon {
+  width: 40px;
+  height: 25px;
+  top: 20px;
+  position: absolute;
+  right: 300px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-webkit-transition: .5s ease-in-out;
+  -ms-webkit-transition: .5s ease-in-out;
+  -o-webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-icon span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: darkgrey;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-webkit-transition: .25s ease-in-out;
+  -ms-webkit-transition: .25s ease-in-out;
+  -o-webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.nav-icon span:nth-child(1) {
+  top: 0px;
+  width: 27px
+}
+.nav-icon span:nth-child(2), .nav-icon span:nth-child(3) {
+  top: 10px;
+}
+.nav-icon span:nth-child(4) {
+  top: 20px;
+  width: 32px;
+}
+.nav-icon.open span:nth-child(1) {
+  top: 10px;
+  width: 0%;
+  left: 50%;
+}
+.nav-icon.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.nav-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.nav-icon.open span:nth-child(4) {
+  top: 10px;
+  width: 0%;
+  left: 50%;
+}
+
+.spanHover {
+  background: darkgrey;
+}
+// End of Navigation Styles
+
+// Beginning of Home-Landing Slideshow Styles
+// Small Slideshow - Left
+.slideshow-container2 {
+  position:absolute;
+  white-space: nowrap;
+  width: 86px;
+  height: auto;
+  left: 0px;
+  overflow: hidden;
+}
+
+.slideshow-container2 ul {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  list-style: none;
+}
+
+.slideshow-container2 ul li {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 86px;
+  height: 480px;
+  list-style: none;
+}
+// FPOS for main slideshow slides
+.landingGallery_1 {
+  background-image: url('/assets/imgs/landingSlideShow/480_86/landing_slide1b.jpg');
+  display: block;
+  position: absolute;
+  left: 0px;
+}
+.landingGallery_1b {
+  background-image: url('/assets/imgs/landingSlideShow/480_86/landing_slide2b.png');
+  display: block;
+  position: absolute;
+  left: 0px;
+}
+.landingGallery_1c {
+  background-image: url('/assets/imgs/landingSlideShow/480_86/landing_slide3b.jpg');
+  display: block;
+  position: absolute;
+  left: 0px;
+}
+.landingGallery_1d {
+  background-image: url('/assets/imgs/landingSlideShow/480_86/landing_slide4b.jpg');
+  display: block;
+  position: absolute;
+  left: 0px;
+}
+.landingGallery_1e {
+  background-image: url('/assets/imgs/landingSlideShow/480_86/landing_slide5b.jpg');
+  display: block;
+  position: absolute;
+  left: 0px;
+}
+
+// Large Slideshow - Main
+.slideshow-container1 {
+  white-space: nowrap;
+  position: relative;
+  width: 900px;
+  height: auto;
+  overflow: hidden;
+}
+
+.slideshow-container1 ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  list-style: none;
+}
+
+.slideshow-container1 ul li {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 900px;
+  height: 577px;
+  list-style: none;
+}
+
+.landingSlides {
+  vertical-align: top;
+}
+
+// FPOS for main slideshow slides
+.landingGallery_2 {
+  background-image: url('/assets/imgs/landingSlideShow/900_577/landing_slide1a.jpg');
+}
+.landingGallery_2b {
+  background-image: url('/assets/imgs/landingSlideShow/900_577/landing_slide2a.jpg');
+}
+.landingGallery_2c {
+  background-image: url('/assets/imgs/landingSlideShow/900_577/landing_slide3a.jpg');
+}
+.landingGallery_2d {
+  background-image: url('/assets/imgs/landingSlideShow/900_577/landing_slide4a.jpg');
+}
+.landingGallery_2e {
+  background-image: url('/assets/imgs/landingSlideShow/900_577/landing_slide5a.jpg');
+}
+
+#slideCount {
+  position: absolute;
+  top: 565px;
+  left: 65px;
+  color: darkgrey;
+  margin: 0px;
+}
+
+.slideCount {
+  position: absolute;
+  top: 565px;
+  left: 75px;
+  color: darkgrey;
+}
+
+// End of Home-Landing Styles
+
+//Beginning of Home Page - Custom Helper Styles
+
+.push-leading {
+  margin-top: -20px;
+}
+
+.push-down {
+  position: relative;
+  top: 300px;
+  margin-left: 0px;
+}
+
+.push-up {
+  margin-top: -40px;
+}
+
+.link {
+  color: rgba(0, 174, 239, 1) !important;
+  text-decoration: underline;
+}
+.link:hover {
+  color: rgba(62, 106, 179, 1) !important;
+}
+
+.left, .right {
+  margin: auto;
+  padding: 20px 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.float-right {
+  float: right;
+}
+
+#jobTitle p {
+  
+}
+
+// Home Landing Media Queries
+
+@media screen and (min-width: 1600px) {
+  .nav-icon {
+    right: 150px;
+  }
+
+  .sidebar {
+    height: 100% !important;
+  }
+  .sidebarWorkList li {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-height: 1024px) {
+  .nav-icon {
+    right: 150px;
+  }
+
+  .sidebar {
+    height: 100% !important;
+    width: 400px !important;
+  }
+  .sidebarWorkList li {
+    font-size: 16px !important;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 320px !important;
+  }
+  .sidebarWorkList li {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-height: 768px) {
+  .nav-icon {
+    right: 150px;
+  }
+
+  .sidebar {
+    height: 100% !important;
+    width: 330px !important;
+  }
+  .sidebarWorkList li {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .media-reset {
+    position: relative;
+    left: 75px !important;
+  }
+
+  .push-down {
+    top: 150px;
+  }
+
+  .nextPrev {
+    position: relative;
+    margin-top: 0px;
+    top: 260px;
+    padding-bottom: 417px;
+  }
+
+  #slideCount {
+    top: 446px;
+    left: 119px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-icon {
+    right: 150px;
+  }
+
+  .sidebar {
+    height: 100% !important;
+    width: 330px !important;
+  }
+  .sidebarWorkList li {
+    padding-top: 15px;
+  }
+
+  .left, .right {
+    width: 65px;
+    height: 125px;
+    padding-top: 25px;
+  }
+
+  .fa {
+    font-size: 20px;
+  }
+
+  .link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 736px) and (max-height: 414px) {
+  .nav {
+    height: 140px;
+  }
+
+  .nav-wrapper {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 414px) and (max-height: 736px) {
+  .sidebar li {
+    font-size: 16px !important;
+  }
+
+  .left, .right {
+    width: 75px;
+    padding-top: 45px;
+  }
+
+  .fa {
+    font-size: 30px;
+  }
+
+  .link {
+    font-size: 25px;
+  }
+
+  .offset-l1 {
+    padding-right: 19px !important;
+  }
+
+  #slideCount {
+    top: 500px;
+    left: 150px;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .offset-l1 {
+    padding-right: 16px !important;
+  }
+
+  #slideCount {
+    top: 498px;
+    left: 137px;
+  }
+}

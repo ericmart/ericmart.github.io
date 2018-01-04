@@ -1,0 +1,62 @@
+section.design-portfolioPage
+  .container.default
+    .row
+      .col.l12.m12.s12#workSlideshow
+        .carousel.carousel-slider.center(data-indicators='true')
+          .carousel-item.white-text(href='#one!')
+            img(src='/assets/imgs/portfolioWork/design/kingLyre/kingLyre1.jpg')
+          .carousel-item.white-text(href='#two!')
+            img(src='/assets/imgs/portfolioWork/design/kingLyre/kingLyre2.jpg')
+          .carousel-item.white-text(href='#three!')
+            img(src='/assets/imgs/portfolioWork/design/kingLyre/kingLyre3.jpg')
+          .carousel-item.white-text(href='#four!')
+            img(src='/assets/imgs/portfolioWork/design/kingLyre/kingLyre4.jpg')
+          .carousel-item.white-text(href='#five!')
+            img(src='/assets/imgs/portfolioWork/design/kingLyre/kingLyre5.jpg')
+          .carousel-item.white-text(href='#six!')
+            img(src='/assets/imgs/portfolioWork/design/kingLyre/kingLyre6.jpg')
+    .row
+      .col.l1
+        button.togglePortfolioCopy.waves-effect.waves-light
+          i.fa.fa-chevron-up(aria-hidden='true')
+      .col.l5
+        p#workSubHeading TOGGLE FOR WORK INFORMATION
+      .col.l1.m1.s1.offset-l5.offset-m5.offset-s2
+        ul.center-align
+          li#portfolioPageNext
+            a(href='design-designWhat.html')
+              i.fa.fa-chevron-right(aria-hidden='true').right.waves-effect
+    .row.portfolioCopy
+      .col.l4.m4.s12
+        h3.workTitle King & Lyre | Visual Arts Publication
+        h6.push-leading.workSubHeading DESIGN
+        p.workSubHeading CREATOR | EDITOR | ART DIRECTOR
+        p.workDescription
+          | This publication is serves as a vehicle that uses design as a means of
+          | illustrating new points of political discourse. This project was designed
+          | to strengthen the understanding of contextual frameworks within text and
+          | imagery, as well as put together an efficient means of undergoing thorough
+          | research, design, and execution.
+        p.workDescription
+          | The most important responsibility is to produce, foster,
+          | and maintain relationships with vendors, artists, writers, and consumers
+          | that are needed in the production of a great product.
+      .col.l3.m3.s12
+        p.workDescription.pushDown
+          | King & Lyre originated from a desire to gather collaborators and
+          | contemporaries from across different media into one portable space.
+          | In a printed form, aesthetic challenges and unique forms of communication can
+          | be experimented with. In a digital format, a new way of cataloguing language
+          | and the importance of historical context can be explored.
+      .col.l3.m3.s12.websiteLinkContainer
+        p.workDescription.pushDown Visit website link below:
+        .websiteLink.workDescription
+          a(href='https://kinglyre.github.io' target='_blank') www.kinglyre.github.io
+      .col.l2.m2.s12
+        ul.center-align
+          li#prev
+            a(href='design-lanza.html')
+              i.fa.fa-chevron-left(aria-hidden='true').left.waves-effect
+          li#next
+            a(href='design-designWhat.html')
+              i.fa.fa-chevron-right(aria-hidden='true').right.waves-effect

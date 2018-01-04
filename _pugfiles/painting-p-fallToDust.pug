@@ -1,0 +1,42 @@
+section.painting-portfolioPage
+  .container
+    .row
+      .col.l12.m12.s12#workSlideshow
+        .carousel.carousel-slider.center(data-indicators='true')
+          .carousel-item.white-text(href='#one!')
+            img(src='/assets/imgs/portfolioWork/visualArt/painting/fallToDust/fallToDustI-p1.jpg')
+          .carousel-item.white-text(href='#two!')
+            img(src='/assets/imgs/portfolioWork/visualArt/painting/fallToDust/fallToDustI-p2.jpg')
+          .carousel-item.white-text(href='#three!')
+            img(src='/assets/imgs/portfolioWork/visualArt/painting/fallToDust/fallToDustII-p2.jpg')
+
+    .row
+      .col.l1
+        button.togglePortfolioCopy.waves-effect.waves-light
+          i.fa.fa-chevron-up(aria-hidden='true')
+      .col.l5.m2
+        p#workSubHeading TOGGLE WORK DESCRIPTION
+      .col.l1.m2.s4.offset-l5.offset-m3
+        ul.center-align
+          li#portfolioPageNext
+            a(href='painting-letMeHelp.html')
+              i.fa.fa-chevron-right(aria-hidden='true').right.waves-effect
+    .row.portfolioCopy
+      .col.l4.m4.s12
+        h3.workTitle Fall To Dust I & II
+        h6.push-leading.workSubHeading 2015-16
+        p.workSubHeading PAINTING
+          p.workDescription
+            | History is a common thread throughout all of my work, especially
+            | in the Fall To Dust works. Fall To Dust I consists of sifting excavated dirt
+            | onto a form to leave a tracing of its shape. The work is incased within a frame
+            | built in a similar vein to an archaeological artifact or excavation site.
+      .col.l4.m4.s12
+        p.workDescription.pushDown
+          | In Fall To Dust II, the same painting is lifted and hung onto a wall, allowing the
+          | paper to fall as it may, displacing the tracing and creating a new work.
+      .col.l1.m1.s1
+        ul.center-align
+          li#next
+            a(href='painting-letMeHelp.html')
+              i.fa.fa-chevron-right(aria-hidden='true').right.waves-effect

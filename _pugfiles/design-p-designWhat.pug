@@ -1,0 +1,38 @@
+section.design-portfolioPage
+  .container.default
+    .row
+      .col.l12.m12.s12#workSlideshow
+        .carousel.carousel-slider.center(data-indicators='true')
+          .carousel-item.white-text(href='#one!')
+            img(src='/assets/imgs/portfolioWork/design/designWhat/designWhat1.jpg')
+          .carousel-item.white-text(href='#two!')
+            img(src='/assets/imgs/portfolioWork/design/designWhat/designWhat2.jpg')
+          .carousel-item.white-text(href='#three!')
+            img(src='/assets/imgs/portfolioWork/design/designWhat/designWhat4.jpg')
+          .carousel-item.white-text(href='#four!')
+            img(src='/assets/imgs/portfolioWork/design/designWhat/designWhat5.jpg')
+    .row
+      .col.l1
+        button.togglePortfolioCopy.waves-effect.waves-light
+          i.fa.fa-chevron-up(aria-hidden='true')
+      .col.l3
+        p#workSubHeading TOGGLE FOR WORK INFORMATION
+    .row.portfolioCopy
+      .col.l4.m4.s12
+        h3.workTitle Design What? | A Graphic Designer's Manual
+        h6.push-leading.workSubHeading DESIGN
+        p.workSubHeading EDITOR | GRAPHIC DESIGNER
+        p.workDescription
+          | <i>Design What?</i> is a thesis publication aimed at demonstrating a
+          | focused approach to information, aesthetics and audience. The goal of this project was to create a Graphic Design instruction manual
+          | that both an experienced designer, or a curious patron could understand easily in addition to learn valuable information and implementation.
+      .col.l3.m3.s12
+        .workInfo
+          p.workDescription.pushDown
+            | Dimensions: 4.5" x 6.5" Saddle-Stitched
+            | Iconography found on thenounproject.com
+      .col.l1.m1.s12.offset-l1
+        ul.center-align
+          li#prev
+            a(href='design-kingLyre.html')
+              i.fa.fa-chevron-left(aria-hidden='true').left.waves-effect

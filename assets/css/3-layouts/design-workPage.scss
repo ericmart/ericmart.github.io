@@ -1,0 +1,175 @@
+// Beginning of Design - Work Page Styles
+// Section Styles
+.design-portfolioPage, .painting-portfolioPage, .sculpture-portfolioPage, .video-portfolioPage {
+  margin: 275px 0 250px;
+}
+
+// Carousel Styles
+.carousel {
+  height: 650px;
+}
+
+.carousel img {
+  position: relative;
+  cursor: pointer;
+}
+
+.indicator-item {
+  background-color: rgba(175, 175, 175, 0.5) !important;
+}
+.indicator-item.active {
+  background-color: darkgrey !important;
+}
+
+// Push copy container to the left
+.portfolioCopy {
+  display: none;
+}
+
+// Helper Classes for Typography
+.workTitle {
+  color: black;
+}
+
+h6.workSubHeading, p#workSubHeading {
+  margin-top: 10px;
+}
+.workSubHeading, #workSubHeading {
+  color: grey;
+}
+
+.workDescription {
+  font-size: 12px;
+}
+
+.websiteLinkContainer {
+  text-align: center;
+  margin-left: -60px;
+}
+.websiteLink {
+  margin-top: -21px;
+}
+.websiteLink a {
+  color: darkgrey;
+}
+.websiteLink a:hover {
+    color: lightblue;
+}
+
+.workInfo {
+  font-weight: bold;
+}
+
+.pushDown {
+  margin-top: 138px;
+}
+
+.center-align {
+  margin-top: -10px;
+}
+
+// Next and Previous controls to manage moving from one work page to another
+
+.portfolio-nextPrev {
+  margin-top: 200px;
+}
+
+
+// Portfolio Copy Toggle Button Styles
+
+button.togglePortfolioCopy {
+  background-color: white;
+  text-align: center;
+  border-style: none;
+}
+
+.togglePortfolioCopy {
+  display: block;
+  width: auto;
+  height: 50px;
+  text-align: center;
+
+  :hover {
+    color: darkgrey !important;
+  }
+}
+i.fa.fa-chevron-up {
+  color: lightgrey;
+  font-size: 18px;
+}
+
+.rotate {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg); /* Standard syntax */
+}
+
+// Media Queries
+@media screen and (max-width: 1366px) and (max-height: 1024px) {
+  .col.l12.m12.s12#workSlideshow {
+    width: 140%;
+  }
+
+  .carousel {
+    height: 770px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  .col.l12.m12.s12#workSlideshow {
+    width: 170%;
+  }
+
+  .carousel {
+    height: 630px !important;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  .col.l12.m12.s12#workSlideshow {
+    margin-top: 120px;
+    width: 129%;
+  }
+
+  .carousel {
+    height: 480px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 786px) {
+  .col.l12.m12.s12#workSlideshow {
+    width: 150%;
+  }
+
+  .carousel {
+    height: 630px !important;
+  }
+}
+
+@media screen and (max-width: 736px) and (max-height: 414px) {
+  .col.l12.m12.s12#workSlideshow {
+    width: 135%;
+  }
+
+  .carousel {
+    height: 488px !important;
+  }
+}
+
+@media screen and (max-width: 414px) and (max-height: 736px) {
+  .col.l12.m12.s12#workSlideshow {
+    width: 232%;
+  }
+
+  .carousel {
+    height: 488px !important;
+  }
+
+  .pushDown {
+    margin-top: 0px;
+  }
+
+  .workDescription {
+    font-size: 16px;
+  }
+}
